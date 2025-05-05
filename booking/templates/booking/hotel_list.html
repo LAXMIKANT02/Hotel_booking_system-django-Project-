@@ -1,0 +1,17 @@
+<!-- booking/templates/booking/hotel_list.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+</head>
+<body>
+    <h2>Available Hotels</h2>
+    <ul>
+        {% for hotel in hotels %}
+            <li>{{ hotel.name }} - {{ hotel.city }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
