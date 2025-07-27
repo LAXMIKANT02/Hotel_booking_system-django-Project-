@@ -58,7 +58,7 @@ hotelbooking/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/hotelbooking.git
+   git clone https://github.com/LAXMIKANT02/Hotel_booking_system-django-Project-.git
    cd hotelbooking
    ````
 
